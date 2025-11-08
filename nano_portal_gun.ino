@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>
 
 // Пины JQ6500 (можно изменить при необходимости)
-#define JQ_TX 4   // TX Arduino → RX JQ6500
+#define JQ_TX 4   // TX Arduino → RX JQ6500 через 1кОм
 #define JQ_RX 5   // RX Arduino ← TX JQ6500
 
 SoftwareSerial jqSerial(JQ_RX, JQ_TX); // RX, TX
